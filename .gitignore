@@ -1,0 +1,18 @@
+# Dependencies and build output
+node_modules/
+/out/
+/dist/
+/coverage/
+*.tsbuildinfo
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+/supabase/.temp/
+/supabase/.branches/
+
+# Local logs and OS files
+*.log
+.DS_Store
+Thumbs.db
